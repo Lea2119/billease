@@ -3,3 +3,9 @@ export interface User {
   isAuthenticated: boolean
   token: string
 }
+
+export interface SignupFormData {
+  username: string
+  email: string
+  password: string
+}
